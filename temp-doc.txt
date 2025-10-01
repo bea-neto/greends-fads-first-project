@@ -1,0 +1,8 @@
+5.1. Can you explain the copy (cp ../temp-* .) command used above?
+Usei cp para copiar, os .. para nos referirmos à pasta anterior, /temp-* para que se copie todos os ficheiros com o prefixo temp- e o . para que isto seja copiado para a pasta onde estamos.
+
+5.2. Can you explain why, in this case, we did not have to do git init?
+Não se usa o git init, pois não criei um repositório novo, mas sim clonei um que já existia.
+
+5.3. Can you commit the files copied? What do you need to do? Execute the commands that are needed.
+Sim consigo fazer commit do ficheiros copiados. Para fazer o commit preciso de modificar os ficheiros, depois adicioná-los ao repositório com o git add /temp-* e depois fazer commit com o comando git commit -m "adição de os ficheiros temp e resposta às perguntas do enunciado".
